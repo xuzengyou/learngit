@@ -64,12 +64,3 @@ a project for wepy and git
     $ git branch -D dev
     强制删除未合并的本地库的dev分支
 
-
-
-
-
-
-
-
-
-
