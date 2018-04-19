@@ -46,6 +46,14 @@ a project for wepy and git
     $ git checkout -b dev
     创建并切换到新的dev分支 ：此时没有相对应的远程分支
 
+    $ git push origin dev
+    将本地该分支上的所有本地提交推送到远程库  并会添加一个dev远程库 dev与origin/dev 并没有关联
+
+    $ git branch --set-upstream-to=origin/dev dev
+    将本地dev与origin/dev相关联
+
+
+
 
 
 
