@@ -64,3 +64,13 @@ a project for wepy and git
     $ git branch -D dev
     强制删除未合并的本地库的dev分支
 
+    $ git remote
+    查看远程库的信息
+
+    $ git remote -v
+    显示可以抓取和推送的origin的地址 如果没有推送权限 就看不到push的地址
+
+    $ git branch -r -d origin/dev
+    $ git push origin :dev
+    两行代码合起来可以做删除远程分支的操作
+
