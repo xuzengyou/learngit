@@ -38,7 +38,7 @@ a project for wepy and git
 
     至此本地仓库顺利添加到远程并与master分支关联
 
-分支管理练习
+  分支管理练习
 
     $ git branch -vv
     显示本地分支与远程分支的对应关系
@@ -74,3 +74,10 @@ a project for wepy and git
     $ git push origin :dev
     两行代码合起来可以做删除远程分支的操作
 
+  修改用户名与邮箱
+
+    $ git config --global user.name 'wangtong'
+    修改用户名
+
+    $ git config --global user.email wangt173111@163.com
+    修改邮箱
