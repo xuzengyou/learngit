@@ -6,7 +6,7 @@ a project for wepy and git
 
 
 
-$ git init
+  $ git init
     在本地创建版本库：可以是空的文件夹，也可以是有内容的文件夹
     不管是空文件夹还是非空文件夹都会
     Initialized empty Git repository
@@ -25,7 +25,7 @@ $ git init
 
 
 
-远程Create a new repository
+  远程Create a new repository
 
     填入仓库名称和Description，其他保持默认配置
 
@@ -37,4 +37,17 @@ $ git init
     -u 表示把本地的master分支和远程的master分支关联起来
 
     至此本地仓库顺利添加到远程并与master分支关联
+
+分支管理练习
+
+    $ git branch -vv
+    显示本地分支与远程分支的对应关系
+
+    $ git checkout -b dev
+    创建并切换到新的dev分支 ：此时没有相对应的远程分支
+
+
+
+
+
 
