@@ -5,8 +5,9 @@ a project for wepy and git
 在本地创建版本库并推送到远程：
 
 
+  创建本地版本库
 
-  $ git init
+    $ git init
     在本地创建版本库：可以是空的文件夹，也可以是有内容的文件夹
     不管是空文件夹还是非空文件夹都会
     Initialized empty Git repository
@@ -21,7 +22,6 @@ a project for wepy and git
     把文件提交到仓库
 
     至此，本地版本库建好了
-
 
 
 
