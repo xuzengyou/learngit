@@ -2,8 +2,7 @@
 a project for wepy and git
 
 # git练习记录
-在本地创建版本库并推送到远程：
-
+  在本地创建版本库并推送到远程：
 
   创建本地版本库
 
@@ -83,3 +82,5 @@ a project for wepy and git
     修改邮箱
 
   版本回退(待补充)
+
+# wepy框架学习(待补充)
