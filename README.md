@@ -48,7 +48,7 @@ a project for wepy and git
     创建的分支指向当前分支最新的一步
 
     $ git checkout -b dev origin/dev
-    有origin/dev时 在本地创建并切换到相应的dev分支
+    有origin/dev时 在本地创建并切换到相应的dev分支 此时 dev与origin/dev 已经关联
 
     $ git push origin dev
     将本地该分支上的所有本地提交推送到远程库  并会添加一个dev远程库 dev与origin/dev 并没有关联
