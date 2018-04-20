@@ -42,14 +42,14 @@ a project for wepy and git
     $ git branch -vv
     显示本地分支与远程分支的对应关系
 
+    $ git checkout -b dev origin/dev
+    有origin/dev时 在本地创建并切换到相应的dev分支 此时 dev与origin/dev 已经关联
+
+    $ git checkout master
+    切换到master分支
     $ git checkout -b dev
     创建并切换到新的dev分支 ：此时没有相对应的远程分支
     创建的分支指向当前分支最新的一步
-    $ git checkout master
-    切换到master分支
-
-    $ git checkout -b dev origin/dev
-    有origin/dev时 在本地创建并切换到相应的dev分支 此时 dev与origin/dev 已经关联
 
     $ git push origin dev
     将本地该分支上的所有本地提交推送到远程库  并会添加一个dev远程库 dev与origin/dev 并没有关联
