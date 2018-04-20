@@ -81,6 +81,8 @@ a project for wepy and git
     $ git config --global user.email wangt173111@163.com
     修改邮箱
 
-  版本回退(待补充)
+  版本回退
+
+
 
 # wepy框架学习(待补充)
