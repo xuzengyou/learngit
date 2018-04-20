@@ -148,6 +148,9 @@ a project for wepy and git
     wepy build --watch
     此时开启实时编译
 
+    wepy build --no-cache
+    重启编译 对于引用到的文件，即使无改动也会再次编译
+
   偏向细节
 
     在wepy中实现promise的使用(未引入，未验证)(Promise已引入，无法验证官方文档的正确性)
