@@ -29,10 +29,12 @@ a project for wepy and git
     填入仓库名称和Description，其他保持默认配置
 
     $ git remote add origin git@github.com:wangtongbef/wt-project.git
-    关联远程仓库
+    关联远程仓库（空库可实现）
+
+    如果本地库是空的那么可以关联远程库但是不可以推送分支
 
     $ git push -u origin master
-    把当前分支master推送到远程
+    把当前分支master推送到远程（空库不可实现）
     -u 表示把本地的master分支和远程的master分支关联起来
 
     至此本地仓库顺利添加到远程并与master分支关联
@@ -145,3 +147,20 @@ a project for wepy and git
 
     wepy build --watch
     此时开启实时编译
+
+  偏向细节
+
+    在wepy中实现promise的使用(未引入，未验证)
+      npm install promise-polyfill --save
+      安装promise-polyfill以使项目能够使用promise
+
+      在app.wpy中引入polyfill
+      import Promise from 'promise-polyfill';
+
+      在app.wpy中使API promise化
+      export default class extends wepy.app {
+        constructor () {
+          super();
+          this.use('promisify');
+        }
+      }
