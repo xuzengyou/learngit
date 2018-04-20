@@ -45,6 +45,8 @@ a project for wepy and git
     $ git checkout -b dev
     创建并切换到新的dev分支 ：此时没有相对应的远程分支
     创建的分支指向当前分支最新的一步
+    $ git checkout master
+    切换到master分支
 
     $ git checkout -b dev origin/dev
     有origin/dev时 在本地创建并切换到相应的dev分支 此时 dev与origin/dev 已经关联
@@ -57,6 +59,7 @@ a project for wepy and git
 
     $ git merge dev
     将dev分支合并到当前分支
+    此时只是本地版本库的变化，还需要git push一下
 
     $ git branch -d dev
     删除本地库中的dev分支
