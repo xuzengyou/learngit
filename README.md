@@ -99,4 +99,6 @@ a project for wepy and git
     $ git reset --hard HEAD^
     回退到上一个版本
 
+  打tag(暂时没用，后续整理)
+
 # wepy框架学习(待补充)
