@@ -150,7 +150,7 @@ a project for wepy and git
 
   偏向细节
 
-    在wepy中实现promise的使用(未引入，未验证)
+    在wepy中实现promise的使用(未引入，未验证)(Promise已引入，无法验证官方文档的正确性)
       npm install promise-polyfill --save
       安装promise-polyfill以使项目能够使用promise
 
