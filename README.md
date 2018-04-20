@@ -83,6 +83,17 @@ a project for wepy and git
 
   版本回退
 
+    $ git log
+    查看版本详细历史，基准为commit
+    $ git log --pretty=oneline
+    查看版本简略历史，多条
 
+    $ git reflog
+    查看版本库变化命令历史多条
+
+    $ git reset --hard 2f640ed
+    指定回退到某一版本或某一命令
+    $ git reset --hard HEAD^
+    回退到上一个版本
 
 # wepy框架学习(待补充)
