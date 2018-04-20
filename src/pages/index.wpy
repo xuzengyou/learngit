@@ -23,7 +23,7 @@
     </view>
 
     <panel>
-      <view class="title" slot="title">测试数量的改变</view>
+      <view class="title" slot="title">测试数量变化</view>
 
       <text class="info">{{normalTitle}}</text>
       <text class="info">{{setTimeoutTitle}}</text>
