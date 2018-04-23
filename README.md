@@ -167,3 +167,6 @@ a project for wepy and git
           this.use('promisify');
         }
       }
+      以上应该是所有引入新依赖的通用方法
+
+
