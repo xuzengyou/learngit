@@ -78,6 +78,27 @@ a project for wepy and git
     $ git push origin :dev
     两行代码合起来可以做删除远程分支的操作
 
+  git对比两个分支差异
+
+    $ git log dev ^master
+    查看dev有 而master中没有的
+
+    $ git log master ^dev
+    查看master有 而dev中没有的
+
+    $ git log master..dev
+    查看dev中比master中多提交了哪些内容
+    列出来的是两个点后边（此处即dev）多提交的内容。
+    同理，想知道 master 比 dev 多提交了什么
+    $ git log dev..master
+
+    $ git log dev...master
+    不知道谁提交的多谁提交的少，单纯想知道有什么不一样
+    在上述情况下，再显示出每个提交是在哪个分支上：
+    $ git log --left-right dev...master
+    注意 commit 后面的箭头，根据我们在 –left-right dev…master 的顺序，左箭头 < 表示是 dev 的，右箭头 > 表示是 master的。
+    指向谁代表是那个分支的提交
+
   修改用户名与邮箱
 
     $ git config --global user.name 'wangtong'
