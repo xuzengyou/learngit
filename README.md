@@ -78,6 +78,20 @@ a project for wepy and git
     $ git push origin :dev
     两行代码合起来可以做删除远程分支的操作
 
+  git合并分支(未验证)
+
+    $ git merge{
+      $ git merge dev
+      如果待合并的分支在当前分支的下游，也就是说没有分叉时，会发生快速合并，这种方法相当于直接把master分支移动到test分支所在的地方，并移动HEAD指针
+
+      $ git merge --no-ff dev
+      这种合并方法会在master分支上新建一个提交节点，从而完成合并
+
+
+
+    }
+
+
   git对比两个分支差异
 
     $ git log dev ^master
