@@ -85,7 +85,10 @@ a project for wepy and git
       如果待合并的分支在当前分支的下游，也就是说没有分叉时，会发生快速合并，这种方法相当于直接把master分支移动到test分支所在的地方，并移动HEAD指针
 
       $ git merge --no-ff dev
-      这种合并方法会在master分支上新建一个提交节点，从而完成合并
+      这种合并方法会在master分支上新建一个提交节点，从而完成合并，此时dev分支得以保存，log不变（适用于有不同提交的分支）
+
+      $ git log --graph --pretty=oneline --abbrev-commit
+      分支详细历史：包括--no-ff合并历史，以图形的方式显示，很直观
 
 
 
