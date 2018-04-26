@@ -102,7 +102,6 @@ a project for wepy and git
       在任何时候，你可以用--abort参数来终止rebase的行动，并且"mywork" 分支会回到rebase开始前的状态。
     }
 
-
   git对比两个分支差异
 
     $ git log dev ^master
