@@ -133,6 +133,9 @@ a project for wepy and git
 
   版本回退
 
+    $ git checkout .
+    放弃工作区所有修改
+
     $ git log
     查看版本详细历史，基准为commit
     $ git log --pretty=oneline
