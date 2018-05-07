@@ -81,6 +81,9 @@ a project for wepy and git
   git合并分支(未验证)
 
     $ git merge{
+      $ git cherry-pick 38361a68
+      将特定的提交合并到本分支（已验证）
+
       $ git merge dev
       如果待合并的分支在当前分支的下游，也就是说没有分叉时，会发生快速合并，这种方法相当于直接把master分支移动到test分支所在的地方，并移动HEAD指针
 
