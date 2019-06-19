@@ -220,4 +220,4 @@ a project for wepy and git
       }
       以上应该是所有引入新依赖的通用方法
 
-
+learn git test 
