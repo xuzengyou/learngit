@@ -38,7 +38,18 @@ a project for wepy and git
     -u 表示把本地的master分支和远程的master分支关联起来
 
     至此本地仓库顺利添加到远程并与master分支关联
+如果未成功：报错 fatal: not a git repository (or any of the parent directories): .git
+1.此时很多人会尝试下面的命令把当前分支代码上传到master分支上。
 
+$ git push -u origin master
+
+但依然没能解决问题
+2.出现错误的主要原因是github中的README.md文件不在本地代码目录中
+3.可以通过如下命令进行代码合并【注：pull=fetch+merge]
+
+git pull --rebase origin master
+4.执行上面代码后可以看到本地代码库中多了README.md文件
+5.此时再执行语句 git push -u origin master即可完成代码上传到github
   分支管理练习
 
     $ git branch -vv
@@ -220,4 +231,4 @@ a project for wepy and git
       }
       以上应该是所有引入新依赖的通用方法
 
-learn git test 
+
